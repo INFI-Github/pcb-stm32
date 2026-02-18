@@ -1,0 +1,96 @@
+# KiCad
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.dcm
+*.dst
+*.ebd
+*.erc
+*.gmh
+*.gpi
+*.gpb
+*.gml
+*.gko
+*.gbr
+*.gerber
+*.gcode
+*.net
+*.pnl
+*.pos
+*.shp
+*.txt
+*.cmp
+*.drb
+*.drl
+*.extr
+*.plot
+*.ps
+*.pdf
+*.svg
+*.hp
+*.log
+*.rpt
+*.scc
+*.wrl
+*.zip
+*-cache.lib
+*-rescue.lib
+*~
+*.lck
+*.uid
+*.fpc
+*.rpts
+
+# PCB files
+*.kicad_pcb-bak
+*.kicad_pcb.bak
+*.kicad_pcb.fpt
+*.kicad_pcb.orig
+*.kicad_pcb.prev
+*.kicad_pcb.pro
+*.kicad_pcb.sch
+*.kicad_pcb.step
+*.kicad_pcb.stp
+
+# Schematic files
+*.kicad_sch-bak
+*.kicad_sch.bak
+*.kicad_sch.orig
+*.kicad_sch.prev
+
+# Project files
+*.kicad_pro-bak
+*.kicad_pro.bak
+*.kicad_pro.orig
+*.kicad_pro.prev
+*.kicad_prl
+
+# Library files
+*.pretty.bak
+*-cache.*
+*-rescue.*
+fp-info-cache
+sym-lib-table.bak
+sym-lib-table.orig
+fp-lib-table.bak
+fp-lib-table.orig
+
+# 3D models
+*.3dshapes
+
+# Datasheets (optional, can be ignored if stored elsewhere)
+*.pdf
+*.PDF
+
+# Build files (optional, depends on your workflow)
+/build
+/output
+/export
+/gerbers
+/drill
+/pos
+/bom
